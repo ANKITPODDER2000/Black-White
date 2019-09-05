@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Russo+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+}
+section{
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+section h1{
+	letter-spacing: 14px;
+	height: 100%;
+	background: white;
+	color: black;
+	padding: 0 80px 0 80px;
+	text-align: center;
+	text-transform:uppercase;
+	font-size: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Russo One', sans-serif;
+}
+section p{
+	background: black;
+	color: white;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	padding: 100px;
+	line-height: 30px;
+	font-family: consolas;
+}
+
+section p span{
+	font-family: 'Lobster', cursive;
+	margin-bottom: 30px;
+	font-size: 30px;
+	letter-spacing: 8px;
+	font-weight: bolder;
+}
+.pointer{
+	position: absolute;
+	z-index: 99999;
+	background: white;
+	width: 300px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	mix-blend-mode: difference;
+	cursor: pointer;
+	border: none;
+}
